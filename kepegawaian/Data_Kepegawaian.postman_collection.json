@@ -1,0 +1,951 @@
+{
+	"info": {
+		"_postman_id": "e234b3ed-bc63-48fc-9d49-3a9e6c7ac2e9",
+		"name": "Data_Kepegawaian",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25064829"
+	},
+	"item": [
+		{
+			"name": "Employee",
+			"item": [
+				{
+					"name": "http://localhost:3000/api/employee/create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nik",
+									"value": "e",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "testea",
+									"type": "text"
+								},
+								{
+									"key": "is_active",
+									"value": "false",
+									"type": "text"
+								},
+								{
+									"key": "start_date",
+									"value": "10/10/2020",
+									"type": "text"
+								},
+								{
+									"key": "end_date",
+									"value": "10/10/2022",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/employee/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"employee",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/employee/1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/employee/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"employee",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/employee/8",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nik",
+									"value": "5678",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "employe8",
+									"type": "text"
+								},
+								{
+									"key": "is_active",
+									"value": "true",
+									"type": "text"
+								},
+								{
+									"key": "start_date",
+									"value": "03/03/2010",
+									"type": "text"
+								},
+								{
+									"key": "end_date",
+									"value": "03/03/2020",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/employee/8",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"employee",
+								"8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/employee/9",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/employee/9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"employee",
+								"9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/report",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/report",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"report"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/employee/create",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nik",
+									"value": "e",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "testea",
+									"type": "text"
+								},
+								{
+									"key": "is_active",
+									"value": "false",
+									"type": "text"
+								},
+								{
+									"key": "start_date",
+									"value": "10/10/2020",
+									"type": "text"
+								},
+								{
+									"key": "end_date",
+									"value": "10/10/2022",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/employee/detail",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"employee",
+								"detail"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/employee/create",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/employee/detail/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"employee",
+								"detail",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/employee/1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"employees"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "EmployeeFamily",
+			"item": [
+				{
+					"name": "http://localhost:3000/api/employeeFamily",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/employeeFamily",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"employeeFamily"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/employeeFamily",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/employeeFamily/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"employeeFamily",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/employeeFamily",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "employee_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "Maria",
+									"type": "text"
+								},
+								{
+									"key": "job",
+									"value": "Mahasiswa",
+									"type": "text"
+								},
+								{
+									"key": "place_of_birth",
+									"value": "Denpasarr",
+									"type": "text"
+								},
+								{
+									"key": "date_of_birth",
+									"value": "17/10/2008",
+									"type": "text"
+								},
+								{
+									"key": "religion",
+									"value": "Islam",
+									"type": "text"
+								},
+								{
+									"key": "is_life",
+									"value": "true",
+									"type": "text"
+								},
+								{
+									"key": "is_divorced",
+									"value": "false",
+									"type": "text"
+								},
+								{
+									"key": "relation_status",
+									"value": "Anak",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/employeeFamily/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"employeeFamily",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/employeeFamily",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/employeeFamily/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"employeeFamily",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/employeeProfile",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "employee_id",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "ozawa",
+									"type": "text"
+								},
+								{
+									"key": "job",
+									"value": "IRT",
+									"type": "text"
+								},
+								{
+									"key": "place_of_birth",
+									"value": "Denpasarr",
+									"type": "text"
+								},
+								{
+									"key": "date_of_birth",
+									"value": "17/10/1985",
+									"type": "text"
+								},
+								{
+									"key": "religion",
+									"value": "Islam",
+									"type": "text"
+								},
+								{
+									"key": "is_life",
+									"value": "true",
+									"type": "text"
+								},
+								{
+									"key": "is_divorced",
+									"value": "false",
+									"type": "text"
+								},
+								{
+									"key": "relation_status",
+									"value": "Istri",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/employeeFamily/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"employeeFamily",
+								"create"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "EmployeProfile",
+			"item": [
+				{
+					"name": "http://localhost:3000/api/employee/create",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/employeeProfile",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"employeeProfile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/employee/create",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "employee_id",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "place_of_birth",
+									"value": "Jakarta",
+									"type": "text"
+								},
+								{
+									"key": "date_of_birth",
+									"value": "05/05/1998",
+									"type": "text"
+								},
+								{
+									"key": "gender",
+									"value": "perempuan",
+									"type": "text"
+								},
+								{
+									"key": "is_married",
+									"value": "false",
+									"type": "text"
+								},
+								{
+									"key": "prof_pict",
+									"value": "t",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/employeeProfile/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"employeeProfile",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/employee/create",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "employee_id",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "place_of_birth",
+									"value": "Jakarta",
+									"type": "text"
+								},
+								{
+									"key": "date_of_birth",
+									"value": "05/05/1998",
+									"type": "text"
+								},
+								{
+									"key": "gender",
+									"value": "perempuan",
+									"type": "text"
+								},
+								{
+									"key": "is_married",
+									"value": "false",
+									"type": "text"
+								},
+								{
+									"key": "prof_pict",
+									"value": "t",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/employeeProfile/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"employeeProfile",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/employee/create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "employee_id",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "place_of_birth",
+									"value": "Jakarta",
+									"type": "text"
+								},
+								{
+									"key": "date_of_birth",
+									"value": "05/05/1998",
+									"type": "text"
+								},
+								{
+									"key": "gender",
+									"value": "perempuan",
+									"type": "text"
+								},
+								{
+									"key": "is_married",
+									"value": "false",
+									"type": "text"
+								},
+								{
+									"key": "prof_pict",
+									"value": "t",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/employeeProfile/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"employeeProfile",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/employee/create",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "employee_id",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "place_of_birth",
+									"value": "Jakarta",
+									"type": "text"
+								},
+								{
+									"key": "date_of_birth",
+									"value": "05/05/1998",
+									"type": "text"
+								},
+								{
+									"key": "gender",
+									"value": "perempuan",
+									"type": "text"
+								},
+								{
+									"key": "is_married",
+									"value": "false",
+									"type": "text"
+								},
+								{
+									"key": "prof_pict",
+									"value": "t",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/employeeProfile/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"employeeProfile",
+								"6"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Education",
+			"item": [
+				{
+					"name": "http://localhost:3000/api/educations",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/educations",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"educations"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/educations",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/education/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"education",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/educations",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "employee_id",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "SMA 4 Jakarta",
+									"type": "text"
+								},
+								{
+									"key": "level",
+									"value": "SMA",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Sekolah Menengah Atas",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/education/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"education",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/educations",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "employee_id",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "SMK 4 Jakarta",
+									"type": "text"
+								},
+								{
+									"key": "level",
+									"value": "SMA",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Sekolah Menengah Kejuruan",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/education/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"education",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/educations",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "employee_id",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "SMA 1 Jakarta",
+									"type": "text"
+								},
+								{
+									"key": "level",
+									"value": "SMA",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Sekolah Menengah Atas",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/education/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"education",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

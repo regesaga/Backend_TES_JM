@@ -1,0 +1,41 @@
+1.clone this repo  
+2.create Database Postgresql 
+- change user name and database using your database 
+3. npm insatall
+4. npm i sequelize --save 
+5. sequelize db:migrate
+6. sequelize db:seed:all
+7. nodemon 
+
+for end point crud 
+
+Report Employee data (format report like no 4)
+ http://localhost:3000/report
+ 
+get all employee whitout relation http://localhost:3000/api/employees 
+get all employee with relation profile family and education http://localhost:3000/api/employee/detail
+get one employee with relation profile family and education http://localhost:3000/api/employee/detail/:id
+get employe without relation http://localhost:3000/api/employee/:id
+create employee http://localhost:3000/api/employee/create
+put update employee http://localhost:3000/api/employee/:id
+delete employee http://localhost:3000/api/employee/:id
+
+get all profile  http://localhost:3000/api/employeeProfile 
+get one profile  http://localhost:3000/api/employeeProfile/:id
+create profile  http://localhost:3000/api/employeeProfile/create
+put for update employee http://localhost:3000/api/employeeProfile/:id
+delete employee profile http://localhost:3000/api/employeeProfile/:id
+
+get all Family  http://localhost:3000/api/employeeFamily 
+get one Family  http://localhost:3000/api/employeeFamily/:id
+create Family  http://localhost:3000/api/employeeFamily/create
+put for update employee Family  http://localhost:3000/api/employeeFamily/:id
+delete employee family http://localhost:3000/api/employeeFamily/:id
+
+get all Education  http://localhost:3000/api/employeeEducation 
+get one Education  http://localhost:3000/api/employeeEducation/:id
+create Education  http://localhost:3000/api/employeeEducation/create
+put for update employee Education  http://localhost:3000/api/employeeEducation/:id
+delete employee Education http://localhost:3000/api/employeeEducation/:id
+
+

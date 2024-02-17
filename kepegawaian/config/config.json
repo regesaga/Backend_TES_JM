@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "regesaga",
+    "password": "regesaga",
+    "database": "data_kepegawaian",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "regesaga",
+    "password": "regesaga",
+    "database": "data_kepegawaian",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "regesaga",
+    "password": "regesaga",
+    "database": "data_kepegawaian",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
